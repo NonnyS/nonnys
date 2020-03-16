@@ -19,7 +19,3 @@ module.exports.run = async (bot, message, args) => {
         message.channel.send(`<@${rMember.id}> has been given the role ${gRole.name}`)
     }
 }
-
-module.exports.help = {
-    name: "addrole"
-}
